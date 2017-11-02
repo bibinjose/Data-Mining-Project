@@ -6,9 +6,14 @@ import random
 import os
 cwd = os.getcwd()
 output_file="loan_data.csv"
+input_file=input("Enter the input csv file name :")
 #Open the csv file
-with open("C:/usf/dm project/loandata/loan.csv", "rb") as loan_data:
-    records = [record for record in loan_data]
+try:
+    with open(input_file, "rb") as loan_data:
+        records = [record for record in loan_data]
+except FileNotFoundError:
+    print("Invalid file location")
+    exit(0)
 #To get the attribute list
 attributes=records[0]
 #Get 1 lakh random records
