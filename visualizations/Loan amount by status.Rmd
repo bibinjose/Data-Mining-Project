@@ -1,0 +1,20 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+
+```{r}
+mydata = read.csv("C:/usf/dm project/loan_data_Updated.csv")
+box_status <- ggplot(mydata, aes(loan_status, loan_amnt))
+box_status + geom_boxplot(aes(fill = loan_status)) +
+  theme(axis.text.x = element_blank()) +
+  labs(list(
+    title = "Loan amount by status",
+    x = "Status",
+    y = "Amount"))
+
+```
+
