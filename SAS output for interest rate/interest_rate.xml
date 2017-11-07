@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="14.2" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL" X="704" Y="187" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT" X="105" Y="185" DESCRIPTION="File Import" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="csv" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\usf\dm project\Cleaned_8lakh_All_Cleaned_Interest_cat.csv" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Interest_cat" AttributeName="ROLE" AttributeValue="TARGET"/>
+<DELTA Variable="Interest_cat" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="addr_state" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="amount_diff_inv_low" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="amount_diff_inv_low" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="amount_diff_inv_same" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="amount_diff_inv_same" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="annual_inc" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="collection_recovery_fee" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="collections_12_mths_ex_med" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="delinq_2yrs" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="delinq_2yrs_cat_no" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="delinq_2yrs_cat_yes" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="dti" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="earliest_cr_line" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="emp_length" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="funded_amnt" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="funded_amnt_inv" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="grade_A" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_B" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_C" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_D" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_E" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_F" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="grade_G" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_ANY" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_MORTGAGE" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_NONE" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_OTHER" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_OWN" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="home_ownership_RENT" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="id" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="initial_list_status_f" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="initial_list_status_w" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="inq_last_6mths" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="inq_last_6mths_cat_no" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="inq_last_6mths_cat_yes" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="installment" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="int_rate" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="last_credit_pull_d" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="last_pymnt_amnt" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="last_pymnt_d" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="loan_amnt" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="loan_status" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="next_pymnt_d" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="open_acc" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="out_prncp" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="out_prncp_inv" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="pub_rec" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="pub_rec_cat_no" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="pub_rec_cat_no" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="pub_rec_cat_yes" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="pub_rec_cat_yes" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="purpose_car" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_credit_card" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_debt_consolidation" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_educational" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_home_improvement" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_house" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_major_purchase" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_medical" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_moving" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_other" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_renewable_energy" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_small_business" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_vacation" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="purpose_wedding" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="recoveries" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="revol_bal" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="revol_util" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="sub_grade" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="term_36" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="term_60" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="tot_coll_amt" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="tot_cur_bal" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_acc" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_pymnt" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_pymnt_inv" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_rec_int" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_rec_late_fee" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_rec_prncp" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="total_rev_hi_lim" AttributeName="DROP" AttributeValue="Y"/>
+<DELTA Variable="verification_status_Not_Verified" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="verification_status_Source_Verif" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="verification_status_Verified" AttributeName="LEVEL" AttributeValue="BINARY"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;Interest_cat&quot; then do;
+ROLE=&quot;TARGET&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;addr_state&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;amount_diff_inv_low&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;amount_diff_inv_same&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;annual_inc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;collection_recovery_fee&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;collections_12_mths_ex_med&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;delinq_2yrs&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;delinq_2yrs_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;delinq_2yrs_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;dti&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;earliest_cr_line&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;emp_length&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;funded_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;funded_amnt_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;grade_A&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_B&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_C&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_D&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_E&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_F&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;grade_G&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_ANY&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_MORTGAGE&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_NONE&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_OTHER&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_OWN&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;home_ownership_RENT&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;id&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;initial_list_status_f&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;initial_list_status_w&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;inq_last_6mths&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;inq_last_6mths_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;inq_last_6mths_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;installment&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;int_rate&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;last_credit_pull_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;last_pymnt_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;last_pymnt_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;loan_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;loan_status&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;next_pymnt_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;open_acc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;out_prncp&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;out_prncp_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;pub_rec&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;pub_rec_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;pub_rec_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;purpose_car&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_credit_card&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_debt_consolidation&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_educational&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_home_improvement&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_house&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_major_purchase&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_medical&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_moving&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_other&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_renewable_energy&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_small_business&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_vacation&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;purpose_wedding&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;recoveries&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;revol_bal&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;revol_util&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;sub_grade&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;term_36&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;term_60&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;tot_coll_amt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;tot_cur_bal&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_acc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_pymnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_pymnt_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_rec_int&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_rec_late_fee&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_rec_prncp&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;total_rev_hi_lim&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;Y&quot;;
+end;
+if NAME=&quot;verification_status_Not_Verified&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;verification_status_Source_Verif&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;verification_status_Verified&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+]]>
+</Data>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;Interest_cat&quot; then do;
+ROLE=&quot;TARGET&quot;;
+LEVEL=&quot;ORDINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;addr_state&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;addr_state&quot; then delete;
+if NAME=&quot;amount_diff_inv_low&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;amount_diff_inv_low&quot; then delete;
+if NAME=&quot;amount_diff_inv_same&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;amount_diff_inv_same&quot; then delete;
+if NAME=&quot;annual_inc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;annual_inc&quot; then delete;
+if NAME=&quot;collection_recovery_fee&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;collection_recovery_fee&quot; then delete;
+if NAME=&quot;collections_12_mths_ex_med&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;collections_12_mths_ex_med&quot; then delete;
+if NAME=&quot;delinq_2yrs&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;delinq_2yrs&quot; then delete;
+if NAME=&quot;delinq_2yrs_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;delinq_2yrs_cat_no&quot; then delete;
+if NAME=&quot;delinq_2yrs_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;delinq_2yrs_cat_yes&quot; then delete;
+if NAME=&quot;dti&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;dti&quot; then delete;
+if NAME=&quot;earliest_cr_line&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;earliest_cr_line&quot; then delete;
+if NAME=&quot;emp_length&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;emp_length&quot; then delete;
+if NAME=&quot;funded_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;funded_amnt&quot; then delete;
+if NAME=&quot;funded_amnt_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;funded_amnt_inv&quot; then delete;
+if NAME=&quot;grade_A&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_B&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_C&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_D&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_E&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_F&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;grade_G&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_ANY&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_MORTGAGE&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_NONE&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_OTHER&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_OWN&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;home_ownership_RENT&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;id&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;id&quot; then delete;
+if NAME=&quot;initial_list_status_f&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;initial_list_status_w&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;inq_last_6mths&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;inq_last_6mths&quot; then delete;
+if NAME=&quot;inq_last_6mths_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;inq_last_6mths_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;installment&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;installment&quot; then delete;
+if NAME=&quot;int_rate&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;int_rate&quot; then delete;
+if NAME=&quot;last_credit_pull_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;last_credit_pull_d&quot; then delete;
+if NAME=&quot;last_pymnt_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;last_pymnt_amnt&quot; then delete;
+if NAME=&quot;last_pymnt_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;last_pymnt_d&quot; then delete;
+if NAME=&quot;loan_amnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;loan_amnt&quot; then delete;
+if NAME=&quot;loan_status&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;loan_status&quot; then delete;
+if NAME=&quot;next_pymnt_d&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;next_pymnt_d&quot; then delete;
+if NAME=&quot;open_acc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;open_acc&quot; then delete;
+if NAME=&quot;out_prncp&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;out_prncp&quot; then delete;
+if NAME=&quot;out_prncp_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;out_prncp_inv&quot; then delete;
+if NAME=&quot;pub_rec&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;pub_rec&quot; then delete;
+if NAME=&quot;pub_rec_cat_no&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;pub_rec_cat_no&quot; then delete;
+if NAME=&quot;pub_rec_cat_yes&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;pub_rec_cat_yes&quot; then delete;
+if NAME=&quot;purpose_car&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_credit_card&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_debt_consolidation&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_educational&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_home_improvement&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_house&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_major_purchase&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_medical&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_moving&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_other&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_renewable_energy&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_small_business&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_vacation&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;purpose_wedding&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;recoveries&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;recoveries&quot; then delete;
+if NAME=&quot;revol_bal&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;revol_bal&quot; then delete;
+if NAME=&quot;revol_util&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;revol_util&quot; then delete;
+if NAME=&quot;sub_grade&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;sub_grade&quot; then delete;
+if NAME=&quot;term_36&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;term_60&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;tot_coll_amt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;tot_coll_amt&quot; then delete;
+if NAME=&quot;tot_cur_bal&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;tot_cur_bal&quot; then delete;
+if NAME=&quot;total_acc&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_acc&quot; then delete;
+if NAME=&quot;total_pymnt&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_pymnt&quot; then delete;
+if NAME=&quot;total_pymnt_inv&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_pymnt_inv&quot; then delete;
+if NAME=&quot;total_rec_int&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_rec_int&quot; then delete;
+if NAME=&quot;total_rec_late_fee&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_rec_late_fee&quot; then delete;
+if NAME=&quot;total_rec_prncp&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_rec_prncp&quot; then delete;
+if NAME=&quot;total_rev_hi_lim&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;total_rev_hi_lim&quot; then delete;
+if NAME=&quot;verification_status_Not_Verified&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;verification_status_Source_Verif&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;verification_status_Verified&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+drop DROP;
+]]>
+</Data>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp" X="1111" Y="188" DESCRIPTION="Model Comparison" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="Interest_cat" ModelId="Neural" ModelDescription="Neural Network" ModelCriteria="Valid: Misclassification Rate" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VMISC_" TargetLabel="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.NEURAL.CLASS" COMPONENT="NeuralNetwork" ID="Neural" X="908" Y="185" DESCRIPTION="Neural Network" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Neural">
+<PROPERTIES UseEstimates="N" NetworkArchitecture="MLP" DirectConnection="N" Hidden="3" Prelim="Y" PreliminaryRuns="5" PrelimMaxiter="10" PrelimMaxTime="1 HOUR" Maxiter="50" Maxtime="4 HOURS" TrainingTechnique="DEFAULT" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTime="1" GConvValue="1E-6" GConvTime="1" ModelSelectionCriterion="PROFIT/LOSS" SuppressOutput="N" Residuals="Y" Standardizations="N" HiddenUnits="N" TrainCode="" PrelimOutest="" Outest="" Outfit="" InitialDs="" CodefileRes="" CodefileNoRes="" AddHidden="Y" HiddenCombFunction="DEFAULT" HiddenActivation="DEFAULT" HiddenBias="Y" TargetCombFunction="DEFAULT" TargetActivation="DEFAULT" TargetError="DEFAULT" TargetBias="Y" InitialSeed="12345" RandDist="NORMAL" RandScale="0.1" RandLoc="0" InputStandardization="STD" WeightDecay="0" Accelerate="1.2" Decelerate="0.5" Learn="0.1" MaxLearn="50" MinLearn="0.00001" Momentum="0" MaxMomentum="1.75" Tilt="0" ForceRun="N" RunAction="Train" Component="NeuralNetwork">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes>
+<Interest_cat>
+<DecData Table="EMWS1.Neural_Interest_cat_DD">
+<Data>
+<Obs INTEREST_CAT="MEDIUM" COUNT="228094" DATAPRIOR="0.6227601478" TRAINPRIOR="0.6227601478" DECPRIOR="." DECISION1="2" DECISION2="1" DECISION3="0"/>
+<Obs INTEREST_CAT="LOW" COUNT="74512" DATAPRIOR="0.2034385128" TRAINPRIOR="0.2034385128" DECPRIOR="." DECISION1="1" DECISION2="2" DECISION3="1"/>
+<Obs INTEREST_CAT="HIGH" COUNT="63657" DATAPRIOR="0.1738013395" TRAINPRIOR="0.1738013395" DECPRIOR="." DECISION1="0" DECISION2="1" DECISION3="2"/>
+</Data>
+<Metadata>
+<Variable NAME="Interest_cat" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="MEDIUM" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="LOW" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION3" LABEL="HIGH" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Neural_Interest_cat_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="Interest_cat" LABEL="" LEVEL="ORDINAL" EVENT="MEDIUM" ORDER="" FORMAT="$6." TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="MEDIUM" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="LOW" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION3" LABEL="HIGH" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catMedium" LABEL="Predicted: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catMedium" LABEL="Residual: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catLow" LABEL="Predicted: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catLow" LABEL="Residual: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catHigh" LABEL="Predicted: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catHigh" LABEL="Residual: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_Interest_cat" LABEL="From: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_Interest_cat" LABEL="Into: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</Interest_cat>
+</EmTargetAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.EMDPART.CLASS" COMPONENT="Partition" ID="Part" X="503" Y="188" DESCRIPTION="Data Partition" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Part">
+<PROPERTIES Method="DEFAULT" TrainPct="60" ValidatePct="20" TestPct="20" RandomSeed="12345" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.REGRESSION.CLASS" COMPONENT="Regression" ID="Reg" X="913" Y="367" DESCRIPTION="Regression" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Reg">
+<PROPERTIES MainEffect="Y" TwoFactor="N" Polynomial="N" PolynomialDegree="2" Terms="N" Error="LOGISTIC" LinkFunction="LOGIT" SuppressIntercept="N" InputCoding="DEVIATION" MinResourceUse="N" ModelSelection="NONE" SelectionCriterion="DEFAULT" SelectionDefault="Y" Sequential="N" SlEntry="0.05" SlStay="0.05" Start="0" Stop="0" Force="0" Hierarchy="CLASS" Rule="NONE" MaxStep="." StepOutput="N" OptimizationTechnique="DEFAULT" ModelDefaults="Y" MaxIterations="." MaxFunctionCalls="." MaxCPUTime="1 HOUR" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTimes="1" GConvValue="1E-6" GConvTimes="1" ClParm="N" Covout="N" CovB="N" CorB="N" Simple="N" SuppressOutput="N" Details="N" PrintDesignMatrix="N" SASSPDS="N" Performance="N" ExcludedVariable="REJECT" ForceRun="N" RunAction="Train" Component="Regression" Interactions="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes>
+<Interest_cat>
+<DecData Table="EMWS1.Reg_Interest_cat_DD">
+<Data>
+<Obs INTEREST_CAT="MEDIUM" COUNT="228094" DATAPRIOR="0.6227601478" TRAINPRIOR="0.6227601478" DECPRIOR="." DECISION1="2" DECISION2="1" DECISION3="0"/>
+<Obs INTEREST_CAT="LOW" COUNT="74512" DATAPRIOR="0.2034385128" TRAINPRIOR="0.2034385128" DECPRIOR="." DECISION1="1" DECISION2="2" DECISION3="1"/>
+<Obs INTEREST_CAT="HIGH" COUNT="63657" DATAPRIOR="0.1738013395" TRAINPRIOR="0.1738013395" DECPRIOR="." DECISION1="0" DECISION2="1" DECISION3="2"/>
+</Data>
+<Metadata>
+<Variable NAME="Interest_cat" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="10." TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="MEDIUM" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="LOW" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION3" LABEL="HIGH" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Reg_Interest_cat_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="Interest_cat" LABEL="" LEVEL="ORDINAL" EVENT="MEDIUM" ORDER="" FORMAT="$6." TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="MEDIUM" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="LOW" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION3" LABEL="HIGH" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catMedium" LABEL="Predicted: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catMedium" LABEL="Residual: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catLow" LABEL="Predicted: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catLow" LABEL="Residual: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catHigh" LABEL="Predicted: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catHigh" LABEL="Residual: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_Interest_cat" LABEL="From: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_Interest_cat" LABEL="Into: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</Interest_cat>
+</EmTargetAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat" X="295" Y="184" DESCRIPTION="StatExplore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree" X="905" Y="28" DESCRIPTION="Decision Tree" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="2" Maxdepth="4" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes>
+<Interest_cat>
+<DecData Table="EMWS1.Tree_Interest_cat_DD">
+<Data>
+<Obs INTEREST_CAT="MEDIUM" COUNT="228094" DATAPRIOR="0.6227601478" TRAINPRIOR="0.6227601478" DECPRIOR="." DECISION1="2" DECISION2="1" DECISION3="0"/>
+<Obs INTEREST_CAT="LOW" COUNT="74512" DATAPRIOR="0.2034385128" TRAINPRIOR="0.2034385128" DECPRIOR="." DECISION1="1" DECISION2="2" DECISION3="1"/>
+<Obs INTEREST_CAT="HIGH" COUNT="63657" DATAPRIOR="0.1738013395" TRAINPRIOR="0.1738013395" DECPRIOR="." DECISION1="0" DECISION2="1" DECISION3="2"/>
+</Data>
+<Metadata>
+<Variable NAME="Interest_cat" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="10." TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="MEDIUM" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="LOW" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION3" LABEL="HIGH" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Tree_Interest_cat_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="Interest_cat" LABEL="" LEVEL="ORDINAL" EVENT="MEDIUM" ORDER="" FORMAT="$6." TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="MEDIUM" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="LOW" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION3" LABEL="HIGH" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catMedium" LABEL="Predicted: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catMedium" LABEL="Residual: Interest_cat=Medium" LEVEL="MEDIUM" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catLow" LABEL="Predicted: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catLow" LABEL="Residual: Interest_cat=Low" LEVEL="LOW" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_Interest_catHigh" LABEL="Predicted: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_Interest_catHigh" LABEL="Residual: Interest_cat=High" LEVEL="HIGH" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_Interest_cat" LABEL="From: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_Interest_cat" LABEL="Into: Interest_cat" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</Interest_cat>
+</EmTargetAttributes>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="FIMPORT" TO="Stat"/>
+<CONNECTION FROM="Stat" TO="Part"/>
+<CONNECTION FROM="Part" TO="CNTRL"/>
+<CONNECTION FROM="CNTRL" TO="Tree"/>
+<CONNECTION FROM="CNTRL" TO="Reg"/>
+<CONNECTION FROM="Tree" TO="MdlComp"/>
+<CONNECTION FROM="Reg" TO="MdlComp"/>
+<CONNECTION FROM="CNTRL" TO="Neural"/>
+<CONNECTION FROM="Neural" TO="MdlComp"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>
