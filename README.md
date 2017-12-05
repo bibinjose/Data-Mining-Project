@@ -4,6 +4,7 @@ Peer-to-peer lending is the practice of lending money to individuals or business
 The interest rates can be set by lenders who compete for the lowest rate on the reverse auction model or fixed by the intermediary company on the basis of an analysis of the borrower's credit.
 There is the risk of the borrower defaulting on the loans taken out from peer-lending websites.
 
+https://www.lendingclub.com/
 
 # Data Set Overview
 
